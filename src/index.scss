@@ -1,0 +1,25 @@
+#tablediv{
+	font-family: "Arial";
+}
+.tableGrayDetail tr:nth-child(odd) td{
+	background-color: rgba(30, 30, 30, .1);
+	border-style: block;
+	border-left-color: black;
+}
+.tableGrayDetail tr:nth-child(even) td{
+	background-color: rgba(30, 30, 30, .0);
+}
+.tableGrayDetail{
+    padding: 10px;
+    border-radius: 25px;
+    text-align: center;
+    height: 50px;
+    vertical-align: center;
+
+}
+
+
+#tableForRepositories{
+  width: 400px;
+  margin: 10px auto;
+}
